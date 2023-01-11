@@ -14,7 +14,7 @@ Billing -> Generate Bill(In PDF Form)
 
 # Working
 
-Login Page ->First Login On Login Page;
+Login Page ->First Login On Login Page With (User Id And Password);
 
 Home page->Select Icons (New Buyer,Update Buyer,Buyer Details,New Product, Update product, Product Details);
 
