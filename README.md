@@ -19,13 +19,13 @@ Home page->Select Icons (New Buyer,Update Buyer,Buyer Details,New Product, Updat
   # bayer table     
   1 New Buyer->  This is icon is for adding new buyer in the database(mysql) which has featurs like add(id,name,email,phone No)
                       as Buyer details;
-  2 Update Buyer-> This is icon is for Updating new buyer in the database(mysql) which has featurs like add(id,name,email,phone No)
+  2 Update Buyer->  This is icon is for Updating new buyer in the database(mysql) which has featurs like add(id,name,email,phone No)
                      as Buyer details;              
   3 Buyer Details -> To show all buyer details from database;         
    # product table    
-  1 New product->  This is icon is for adding new buyer in the database(mysql) which has featurs like add(id,name,desctiption,rate)
-                       as product details;
-   2 Update product-> This is icon is for Updating new buyer in the database(mysql) which has featurs like add(id,name,desctiption,rate)
-                       as product details;              
+  1 New product->   This is icon is for adding new buyer in the database(mysql) which has featurs like add(id,name,
+                    description,rate) as product details;
+   2 Update product->  This is icon is for Updating new buyer in the database(mysql) which has featurs like add(id,name,
+                       description,rate) as product details;              
   3 product Details -> To show all product details from database;         
        
