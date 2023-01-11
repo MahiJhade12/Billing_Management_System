@@ -28,6 +28,7 @@ Home page->Select Icons (New Buyer,Update Buyer,Buyer Details,New Product, Updat
                     description,rate) as product details;
    2 Update product->  This is icon is for Updating new buyer in the database(mysql) which has featurs like add(id,name,
                        description,rate) as product details;              
-  3 product Details -> To show all product details from database;         
+  3 product Details -> To show all product details from database;  
+  
    #Billing
    It can generate bill for buyer in PDF form
