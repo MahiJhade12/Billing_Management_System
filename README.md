@@ -1,5 +1,7 @@
 # Billing_System
-#Flow
+#Flow ->
+
+
 Login page->Home Page->
 New Buyer -> Update Buyer -> Buyer Details ->
 New Product -> Update product -> Product Details ->
