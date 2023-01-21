@@ -38,14 +38,14 @@ Home page->Select Icons (New Buyer,Update Buyer,Buyer Details,New Product, Updat
   2 Update product->  This is icon is for Updating new buyer in the database(mysql)-> add(id,name,description,rate)   
   
   3 product Details -> To show all product details from database;  
- ![Screenshot (23)](https://user-images.githubusercontent.com/115030944/213850575-7b6ecd80-433f-4020-a9ec-96e04d188844.png)
- ![Screenshot (24)](https://user-images.githubusercontent.com/115030944/213850624-b1403900-1e68-4c6a-aa78-eb2ffaf2360f.png)
- ![Screenshot (25)](https://user-images.githubusercontent.com/115030944/213851930-2138a235-ebb2-4b3c-b589-08748b1d400a.png)
+  ![Screenshot (23)](https://user-images.githubusercontent.com/115030944/213858272-4495d8a3-551a-45ff-ba0f-357943e1b9f8.png)
+  ![Screenshot (24)](https://user-images.githubusercontent.com/115030944/213858282-aa19efaf-ed1b-41b2-b14c-528e89419aea.png)
+  ![Screenshot (25)](https://user-images.githubusercontent.com/115030944/213858288-aca48ee4-2e4b-411f-b0a8-354db4349cae.png)
 
   #Delete buyer & product
   
-  ![Screenshot (22)](https://user-images.githubusercontent.com/115030944/213848894-c016eff5-c1fd-4411-930d-2b045a96e5b7.png)
-  ![Screenshot (266)](https://user-images.githubusercontent.com/115030944/213849066-33903ec2-0210-4ba4-aa36-a26ec37c25df.png)
+  ![Screenshot (22)](https://user-images.githubusercontent.com/115030944/213858304-849ed76f-c09a-4b59-9c7b-5dce5b4c82dd.png)
+  ![Screenshot (26)](https://user-images.githubusercontent.com/115030944/213858312-e06e2b48-b765-42eb-b7b2-5bac540cd383.png)
 
    #Billing
    It can generate bill for buyer in PDF form
