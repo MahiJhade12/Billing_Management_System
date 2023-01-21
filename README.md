@@ -1,5 +1,6 @@
 # Billing_System
 
+
 # Flow 
 
 
@@ -33,4 +34,5 @@ Home page->Select Icons (New Buyer,Update Buyer,Buyer Details,New Product, Updat
   3 product Details -> To show all product details from database;  
   
    #Billing
-   It can generate bill for buyer in PDF form
+   It can generate bill for buyer in PDF form![Screenshot (5)](https://user-images.githubusercontent.com/115030944/213847451-d63e49cc-76b8-4ce6-a065-6ddf519e4738.png)
+
