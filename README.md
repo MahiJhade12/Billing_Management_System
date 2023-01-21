@@ -1,3 +1,4 @@
+![Screenshot (17)](https://user-images.githubusercontent.com/115030944/213847543-610c868e-f07f-49ae-ba11-e3259907023b.png)
 ![Screenshot (17)](https://user-images.githubusercontent.com/115030944/213847523-bf23c578-2e1d-4dce-9e12-c36ae6b0f506.png)
 # Billing_System
 
@@ -17,9 +18,12 @@ Billing -> Generate Bill(In PDF Form)
 # Working
 
 Login Page ->First Login On Login Page With (User Id And Password);
+
 ![Screenshot (5)](https://user-images.githubusercontent.com/115030944/213847451-d63e49cc-76b8-4ce6-a065-6ddf519e4738.png)
 
 Home page->Select Icons (New Buyer,Update Buyer,Buyer Details,New Product, Update product, Product Details);
+
+![Screenshot (17)](https://user-images.githubusercontent.com/115030944/213847554-06564c40-4985-4956-bc29-23e6a7e215ca.png)
 
   #bayer table     
   1 New Buyer->  This is icon is for adding new buyer in the database(mysql) which has featurs like add(id,name,email,phone No)
@@ -37,4 +41,5 @@ Home page->Select Icons (New Buyer,Update Buyer,Buyer Details,New Product, Updat
   
    #Billing
    It can generate bill for buyer in PDF form
+
 
