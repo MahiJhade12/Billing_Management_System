@@ -1,4 +1,3 @@
-![Screenshot (20)](https://user-images.githubusercontent.com/115030944/213858198-cb846528-a1a9-43d0-97cf-a039b02c5ea4.png)
 
 
 # Billing_System
