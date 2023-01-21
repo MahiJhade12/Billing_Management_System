@@ -35,9 +35,10 @@ Home page->Select Icons (New Buyer,Update Buyer,Buyer Details,New Product, Updat
   2 Update product->  This is icon is for Updating new buyer in the database(mysql)-> add(id,name,description,rate)   
   
   3 product Details -> To show all product details from database;  
-  ![Screenshot (22)](https://user-images.githubusercontent.com/115030944/213848695-31fe66ec-8068-479e-9165-71406e6a5e1d.png)
   ![Screenshot (23)](https://user-images.githubusercontent.com/115030944/213848703-a698dd25-7ad9-4857-8b63-9ec110b06015.png)
-  ![Screenshot (24)](https://user-images.githubusercontent.com/115030944/213848712-5d3c4728-bbb5-4ede-babb-ffdbaab48e28.png)
+  ![Screenshot (24)](https://user-images.githubusercontent.com/115030944/213848786-5f64c668-6cb4-4dda-806d-2ca91dd8829e.png)
+  ![Screenshot (25)](https://user-images.githubusercontent.com/115030944/213848793-f76ed7f1-df11-4aa2-a8c6-ed975f7f1dbf.png)
+
 
 
 
