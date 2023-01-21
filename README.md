@@ -23,6 +23,8 @@ Login Page ->First Login On Login Page With (User Id And Password);
 Home page->Select Icons (New Buyer,Update Buyer,Buyer Details,New Product, Update product, Product Details);
 
 ![Screenshot (17)](https://user-images.githubusercontent.com/115030944/213847554-06564c40-4985-4956-bc29-23e6a7e215ca.png)
+![Screenshot (18)](https://user-images.githubusercontent.com/115030944/213847605-f47c7d0c-291b-49f4-b172-6a62f5727264.png)
+
 
   #bayer table     
   1 New Buyer->  This is icon is for adding new buyer in the database(mysql) which has featurs like add(id,name,email,phone No)
