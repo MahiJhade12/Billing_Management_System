@@ -44,7 +44,7 @@ Home page->Select Icons (New Buyer,Update Buyer,Buyer Details,New Product, Updat
   #Delete buyer & product
   
   ![Screenshot (22)](https://user-images.githubusercontent.com/115030944/213848894-c016eff5-c1fd-4411-930d-2b045a96e5b7.png)
-  ![Screenshot (26)](https://user-images.githubusercontent.com/115030944/213848939-65559f1c-706e-4f18-bfe5-8ded1ea8255d.png)
+  ![Screenshot (266)](https://user-images.githubusercontent.com/115030944/213849066-33903ec2-0210-4ba4-aa36-a26ec37c25df.png)
 
    #Billing
    It can generate bill for buyer in PDF form
