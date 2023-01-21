@@ -37,9 +37,9 @@ Home page->Select Icons (New Buyer,Update Buyer,Buyer Details,New Product, Updat
   2 Update product->  This is icon is for Updating new buyer in the database(mysql)-> add(id,name,description,rate)   
   
   3 product Details -> To show all product details from database;  
-  ![Screenshot (23)](https://user-images.githubusercontent.com/115030944/213848703-a698dd25-7ad9-4857-8b63-9ec110b06015.png)
-  ![Screenshot (24)](https://user-images.githubusercontent.com/115030944/213848786-5f64c668-6cb4-4dda-806d-2ca91dd8829e.png)
-  ![Screenshot (25)](https://user-images.githubusercontent.com/115030944/213848793-f76ed7f1-df11-4aa2-a8c6-ed975f7f1dbf.png)
+ ![Screenshot (23)](https://user-images.githubusercontent.com/115030944/213850575-7b6ecd80-433f-4020-a9ec-96e04d188844.png)
+ ![Screenshot (24)](https://user-images.githubusercontent.com/115030944/213850624-b1403900-1e68-4c6a-aa78-eb2ffaf2360f.png)
+ ![Screenshot (25)](https://user-images.githubusercontent.com/115030944/213850687-7c380dc8-9a54-41ae-bae8-fdfd4b341f8b.png)
 
   #Delete buyer & product
   
