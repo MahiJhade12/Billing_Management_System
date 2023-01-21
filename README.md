@@ -26,7 +26,7 @@ Home page->Select Icons (New Buyer,Update Buyer,Buyer Details,New Product, Updat
   3 Buyer Details -> To show all buyer details from database;      
   ![Screenshot (19)](https://user-images.githubusercontent.com/115030944/213847815-451666d9-46ab-4a87-aed5-56beacefee26.png)
   ![Screenshot (20)](https://user-images.githubusercontent.com/115030944/213848308-210ef31d-5bb1-4c1e-9e66-2dfce3e1956b.png)
-  ![Screenshot (26)](https://user-images.githubusercontent.com/115030944/213848387-4eb4f48c-39b1-41f7-adf1-4327bf8c89b2.png)
+  ![Screenshot (29)](https://user-images.githubusercontent.com/115030944/213848414-4b070446-f126-47ac-89dc-41fe0c132cf8.png)
 
 
 
