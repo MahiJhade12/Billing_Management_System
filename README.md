@@ -1,3 +1,5 @@
+![Screenshot (20)](https://user-images.githubusercontent.com/115030944/213858198-cb846528-a1a9-43d0-97cf-a039b02c5ea4.png)
+
 
 # Billing_System
 
@@ -26,9 +28,8 @@ Home page->Select Icons (New Buyer,Update Buyer,Buyer Details,New Product, Updat
   
   3 Buyer Details -> To show all buyer details from database;      
   ![Screenshot (19)](https://user-images.githubusercontent.com/115030944/213847815-451666d9-46ab-4a87-aed5-56beacefee26.png)
-  ![Screenshot (200)](https://user-images.githubusercontent.com/115030944/213849133-ac5cd4bb-a35f-4b96-9259-701ebb8da375.png)
-  ![Screenshot (29)](https://user-images.githubusercontent.com/115030944/213848512-ed9ca1a5-6905-4852-9c66-36e8c3ba31ba.png)
-
+  ![Screenshot (20)](https://user-images.githubusercontent.com/115030944/213858198-cb846528-a1a9-43d0-97cf-a039b02c5ea4.png)
+  ![Screenshot (29)](https://user-images.githubusercontent.com/115030944/213858232-918dd8c8-a9b9-4928-b9b3-f4566647013d.png)
 
    #product table   
    
