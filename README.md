@@ -39,7 +39,7 @@ Home page->Select Icons (New Buyer,Update Buyer,Buyer Details,New Product, Updat
   3 product Details -> To show all product details from database;  
  ![Screenshot (23)](https://user-images.githubusercontent.com/115030944/213850575-7b6ecd80-433f-4020-a9ec-96e04d188844.png)
  ![Screenshot (24)](https://user-images.githubusercontent.com/115030944/213850624-b1403900-1e68-4c6a-aa78-eb2ffaf2360f.png)
- ![Screenshot (25)](https://user-images.githubusercontent.com/115030944/213850687-7c380dc8-9a54-41ae-bae8-fdfd4b341f8b.png)
+ ![Screenshot (25)](https://user-images.githubusercontent.com/115030944/213851930-2138a235-ebb2-4b3c-b589-08748b1d400a.png)
 
   #Delete buyer & product
   
