@@ -29,15 +29,18 @@ Home page->Select Icons (New Buyer,Update Buyer,Buyer Details,New Product, Updat
   ![Screenshot (29)](https://user-images.githubusercontent.com/115030944/213848512-ed9ca1a5-6905-4852-9c66-36e8c3ba31ba.png)
 
 
-
-   
-  
    #product table    
-  1 New product->   This is icon is for adding new buyer in the database(mysql) which has featurs like add(id,name,
-                    description,rate) as product details;
-   2 Update product->  This is icon is for Updating new buyer in the database(mysql) which has featurs like add(id,name,
-                       description,rate) as product details;              
+  1 New product->  This is icon is for adding new buyer in the database(mysql)-> add(id,name,description,rate)
+  
+  2 Update product->  This is icon is for Updating new buyer in the database(mysql)-> add(id,name,description,rate)   
+  
   3 product Details -> To show all product details from database;  
+  ![Screenshot (22)](https://user-images.githubusercontent.com/115030944/213848695-31fe66ec-8068-479e-9165-71406e6a5e1d.png)
+  ![Screenshot (23)](https://user-images.githubusercontent.com/115030944/213848703-a698dd25-7ad9-4857-8b63-9ec110b06015.png)
+  ![Screenshot (24)](https://user-images.githubusercontent.com/115030944/213848712-5d3c4728-bbb5-4ede-babb-ffdbaab48e28.png)
+
+
+
   
    #Billing
    It can generate bill for buyer in PDF form
