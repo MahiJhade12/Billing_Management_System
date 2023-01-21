@@ -18,7 +18,8 @@ Home page->Select Icons (New Buyer,Update Buyer,Buyer Details,New Product, Updat
 ![Screenshot (18)](https://user-images.githubusercontent.com/115030944/213847605-f47c7d0c-291b-49f4-b172-6a62f5727264.png)
 
 
-  #bayer table     
+  #bayer table   
+  
   1 New Buyer->  This is icon is for adding new buyer in the database(mysql) which has featurs like add(id,name,email,phone No)
   
   2 Update Buyer->  This is icon is for Updating new buyer in the database(mysql) which has featurs like add(id,name,email,phone No)
@@ -29,7 +30,8 @@ Home page->Select Icons (New Buyer,Update Buyer,Buyer Details,New Product, Updat
   ![Screenshot (29)](https://user-images.githubusercontent.com/115030944/213848512-ed9ca1a5-6905-4852-9c66-36e8c3ba31ba.png)
 
 
-   #product table    
+   #product table   
+   
   1 New product->  This is icon is for adding new buyer in the database(mysql)-> add(id,name,description,rate)
   
   2 Update product->  This is icon is for Updating new buyer in the database(mysql)-> add(id,name,description,rate)   
@@ -38,6 +40,10 @@ Home page->Select Icons (New Buyer,Update Buyer,Buyer Details,New Product, Updat
   ![Screenshot (23)](https://user-images.githubusercontent.com/115030944/213848703-a698dd25-7ad9-4857-8b63-9ec110b06015.png)
   ![Screenshot (24)](https://user-images.githubusercontent.com/115030944/213848786-5f64c668-6cb4-4dda-806d-2ca91dd8829e.png)
   ![Screenshot (25)](https://user-images.githubusercontent.com/115030944/213848793-f76ed7f1-df11-4aa2-a8c6-ed975f7f1dbf.png)
+
+  #Delete buyer & product
+  ![Screenshot (22)](https://user-images.githubusercontent.com/115030944/213848894-c016eff5-c1fd-4411-930d-2b045a96e5b7.png)
+  ![Screenshot (26)](https://user-images.githubusercontent.com/115030944/213848904-9ffb7a79-5e69-45f7-a0d3-0afd855b5e2e.png)
 
 
 
