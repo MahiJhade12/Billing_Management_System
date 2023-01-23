@@ -5,12 +5,10 @@
 import javax.swing.JTable;
 import java.sql.*;
 import javax.swing.JOptionPane;
-import com.mysql.jdbc.connectionProvider;
-/**
- *
- * @author devendra jhade
- */
-public class BuyersDetails extends javax.swing.JFrame {
+import project.connectionProvider;
+import net.proteanit.sql.DbUtils;
+ 
+public class BuyersDetails  extends javax.swing.JFrame {
 
     /**
      * Creates new form BuyersDetails
@@ -27,7 +25,6 @@ public class BuyersDetails extends javax.swing.JFrame {
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
-
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jSeparator1 = new javax.swing.JSeparator();
@@ -41,33 +38,33 @@ public class BuyersDetails extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setLocation(new java.awt.Point(380, 160));
         setUndecorated(true);
-        setPreferredSize(new java.awt.Dimension(600, 450));
-        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\devendra jhade\\Downloads\\Buyers Details ani.gif")); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 20, 271, -1));
-
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\devendra jhade\\Downloads\\buyer Details.png")); // NOI18N
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 20, -1, -1));
-        getContentPane().add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 77, 611, -1));
-
-        jTable1.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null}
-            },
-            new String [] {
-                "Title 1", "Title 2", "Title 3", "Title 4"
-            }
-        ));
-        jTable1.addComponentListener(new java.awt.event.ComponentAdapter() {
+        addComponentListener(new java.awt.event.ComponentAdapter() {
             public void componentShown(java.awt.event.ComponentEvent evt) {
-                jTable1ComponentShown(evt);
+                formComponentShown(evt);
             }
         });
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\devendra jhade\\Downloads\\product details ani.gif")); // NOI18N
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(229, 7, -1, -1));
+
+        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\devendra jhade\\Downloads\\details product.png")); // NOI18N
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(163, 6, -1, -1));
+        getContentPane().add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 72, 588, 10));
+
+        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+                new Object [][] {
+                        {null, null, null, null},
+                        {null, null, null, null},
+                        {null, null, null, null},
+                        {null, null, null, null}
+                },
+                new String [] {
+                        "Title 1", "Title 2", "Title 3", "Title 4"
+                }
+        ));
+
+
         jScrollPane1.setViewportView(jTable1);
 
         getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 110, 439, 180));
@@ -108,24 +105,27 @@ public class BuyersDetails extends javax.swing.JFrame {
         {
             jTable1.print(JTable.PrintMode.NORMAL);
         }
-         catch(Exception e){
-           
+        catch(Exception e){
+
         }
          
     }//GEN-LAST:event_jButton1ActionPerformed
 
-    private void jTable1ComponentShown(java.awt.event.ComponentEvent evt) {//GEN-FIRST:event_jTable1ComponentShown
+
+        private void formComponentShown(java.awt.event.ComponentEvent evt) {
+        //GEN-FIRST:event_jTable1ComponentShown
         // TODO add your handling code here:
-        try{
+         try{
             Connection con=connectionProvider.connectmysqldb();
             Statement st=con.createStatement();
             ResultSet rs=st.executeQuery("select *from buyer");
-           //jTable1.setModel(DbUtils.resultSetToTableMode1(rs));
-            
+            jTable1.setModel(DbUtils.resultSetToTableModel(rs));
+
         }
         catch(Exception e){
              JOptionPane.showMessageDialog(null,e);
         }
+        
     }//GEN-LAST:event_jTable1ComponentShown
 
     /**

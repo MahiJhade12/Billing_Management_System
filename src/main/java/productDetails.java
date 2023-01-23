@@ -5,10 +5,11 @@
 import javax.swing.JTable;
 import java.sql.*;
 import javax.swing.JOptionPane;
-import com.mysql.jdbc.connectionProvider;
+import project.connectionProvider;
+import net.proteanit.sql.DbUtils;
 /**
  *
- * @author devendra jhade
+ * 
  */
 public class productDetails extends javax.swing.JFrame {
 
@@ -42,7 +43,6 @@ public class productDetails extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setLocation(new java.awt.Point(380, 160));
         setUndecorated(true);
-        setPreferredSize(new java.awt.Dimension(600, 450));
         addComponentListener(new java.awt.event.ComponentAdapter() {
             public void componentShown(java.awt.event.ComponentEvent evt) {
                 formComponentShown(evt);
@@ -104,8 +104,8 @@ public class productDetails extends javax.swing.JFrame {
             Connection con=connectionProvider.connectmysqldb();
             Statement st=con.createStatement();
             ResultSet rs=st.executeQuery("select *from product");
-            //jTable1.setMode1(DbUtils.resultSetToTableModel(rs));
-            
+            jTable1.setModel(DbUtils.resultSetToTableModel(rs));
+
         }
         catch(Exception e){
              JOptionPane.showMessageDialog(null,e);

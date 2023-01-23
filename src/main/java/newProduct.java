@@ -3,14 +3,14 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
 import java.awt.Color;
-import com.mysql.jdbc.connectionProvider;
+import project.connectionProvider;
 import java.sql.*;
 import javax.swing.JOptionPane;
 
 
 /**
  *
- * @author devendra jhade
+ * 
  */
 public class newProduct extends javax.swing.JFrame {
 
@@ -53,7 +53,6 @@ public class newProduct extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setLocation(new java.awt.Point(380, 160));
         setUndecorated(true);
-        setPreferredSize(new java.awt.Dimension(600, 450));
         addComponentListener(new java.awt.event.ComponentAdapter() {
             public void componentShown(java.awt.event.ComponentEvent evt) {
                 formComponentShown(evt);
@@ -75,7 +74,7 @@ public class newProduct extends javax.swing.JFrame {
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 0, 102));
-        jLabel4.setText("100");
+        jLabel4.setText("1");
         getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(297, 99, 31, -1));
         getContentPane().add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 130, 534, 10));
 
@@ -193,9 +192,10 @@ public class newProduct extends javax.swing.JFrame {
               Statement st=con.createStatement();
               ResultSet rs=st.executeQuery ("select max(pId) from product");
              if( rs.next()){
-                 int id=rs.getInt(1);
-                 id=id+1;
-                 String str=String.valueOf(id);
+                 int Id=rs.getInt(1);
+                 Id=Id+1;
+                 String str=String.valueOf(Id);
+                 jLabel4.setText(str);
                  
              }
              else{
@@ -294,7 +294,7 @@ public class newProduct extends javax.swing.JFrame {
          st.executeUpdate("insert into product values('"+pId+"','"+pName+"','"+rate+"','"+description+"','"+activate+"')");
          JOptionPane.showMessageDialog(null,"Successfully Updated");
          setVisible (false);
-         new NewBuyer().setVisible(true);
+         new newProduct().setVisible(true);
 
        }
        catch(Exception e){

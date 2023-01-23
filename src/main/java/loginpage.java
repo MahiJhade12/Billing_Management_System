@@ -8,7 +8,7 @@ import javax.swing.*;
 
 /**
  *
- * @author devendra jhade
+ * 
  */
 public class loginpage extends javax.swing.JFrame {
 

@@ -4,10 +4,10 @@
  */
 import java.sql.*;
 import javax.swing.JOptionPane;
-import com.mysql.jdbc.connectionProvider;
+import project.connectionProvider;
 /**
  *
- * @author devendra jhade
+ * 
  */
 public class deleteProduct extends javax.swing.JFrame {
 
@@ -188,7 +188,7 @@ public class deleteProduct extends javax.swing.JFrame {
              try{
                  Connection con=connectionProvider.connectmysqldb();
                  Statement st=con.createStatement ();
-                 st.executeUpdate ("delete from product where pId='"+pId+"’");
+                 st.executeUpdate ("DELETE FROM product WHERE pId ='pId'");
                  setVisible (false);
                  new deleteProduct().setVisible(true);
              }

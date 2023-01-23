@@ -4,10 +4,10 @@
  */
 import java.sql.*;
 import javax.swing.JOptionPane;
-import com.mysql.jdbc.connectionProvider;
+import project.connectionProvider;
 /**
  *
- * @author devendra jhade
+ * 
  */
 public class deleteBuyer extends javax.swing.JFrame {
 
@@ -184,6 +184,7 @@ public class deleteBuyer extends javax.swing.JFrame {
                   jTextField3.setText (rs.getString(2));
                   jTextField4.setText (rs.getString(3));
                 jTextField5.setText (rs.getString(4));
+                 jTextField6.setText (rs.getString(5));
                 jTextField1.setEditable(false);
                     }
                 else{
@@ -198,13 +199,15 @@ public class deleteBuyer extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
-        String contactNo=jTextField1.getText();
+       // String contactNo=jTextField1.getText();
          int a=JOptionPane.showConfirmDialog(null,"Do you want to delete","Select",JOptionPane.YES_NO_OPTION);
          if(a==0){
+             String contactNo=jTextField1.getText();
              try{
                  Connection con=connectionProvider.connectmysqldb();
                  Statement st=con.createStatement ();
                  st.executeUpdate ("delete from buyer where contactNo='"+contactNo+"’");
+                 JOptionPane.showConfirmDialog(null,"Succesfully deleted");
                  setVisible (false);
                  new deleteBuyer().setVisible(true);
              }

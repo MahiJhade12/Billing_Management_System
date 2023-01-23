@@ -1,8 +1,8 @@
 
 import java.awt.Color;
-import com.mysql.jdbc.connectionProvider;
 import java.sql.*;
 import javax.swing.JOptionPane;
+import project.connectionProvider;
 
 
 
@@ -13,7 +13,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author devendra jhade
+ * 
  */
 public class NewBuyer extends javax.swing.JFrame {
 

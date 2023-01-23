@@ -2,12 +2,12 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-import com.mysql.jdbc.connectionProvider;
+import project.connectionProvider;
 import java.sql.*;
 import javax.swing.JOptionPane;
 /**
  *
- * @author devendra jhade
+ * 
  */
 public class updateProduct extends javax.swing.JFrame {
 

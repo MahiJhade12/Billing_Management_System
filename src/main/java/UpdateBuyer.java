@@ -2,7 +2,7 @@
 import java.awt.Color;
 import java.sql.*;
 import javax.swing.JOptionPane;
-import com.mysql.jdbc.connectionProvider;
+import project.connectionProvider;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -11,7 +11,7 @@ import com.mysql.jdbc.connectionProvider;
 
 /**
  *
- * @author devendra jhade
+ * 
  */
 public class UpdateBuyer extends javax.swing.JFrame {
 
@@ -65,7 +65,6 @@ public class UpdateBuyer extends javax.swing.JFrame {
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         setLocation(new java.awt.Point(380, 160));
         setUndecorated(true);
-        setPreferredSize(new java.awt.Dimension(600, 450));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\devendra jhade\\Downloads\\update buyer ani.gif")); // NOI18N
@@ -84,7 +83,7 @@ public class UpdateBuyer extends javax.swing.JFrame {
                 jTextField1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 110, 145, -1));
+        getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 110, 240, -1));
 
         jButton1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\devendra jhade\\Downloads\\search.png")); // NOI18N
@@ -94,7 +93,7 @@ public class UpdateBuyer extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 110, -1, -1));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 110, 100, -1));
         getContentPane().add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 89, 619, 6));
         getContentPane().add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 146, 619, -1));
 
@@ -152,7 +151,7 @@ public class UpdateBuyer extends javax.swing.JFrame {
                 jTextField3ActionPerformed(evt);
             }
         });
-        getContentPane().add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(211, 208, 229, -1));
+        getContentPane().add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 210, 229, -1));
 
         jTextField4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jTextField4.setForeground(new java.awt.Color(204, 204, 204));
@@ -231,8 +230,9 @@ public class UpdateBuyer extends javax.swing.JFrame {
         getContentPane().add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 390, -1, 30));
 
         jLabel11.setIcon(new javax.swing.ImageIcon("C:\\Users\\devendra jhade\\Downloads\\all page background image.png")); // NOI18N
-        jLabel11.setText("jLabel11");
-        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+        jLabel11.setMaximumSize(new java.awt.Dimension(550, 450));
+        jLabel11.setMinimumSize(new java.awt.Dimension(550, 450));
+        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 570, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -346,12 +346,12 @@ public class UpdateBuyer extends javax.swing.JFrame {
         String address= jTextField5.getText();
         String gender=jTextField6.getText();
       try{
-         Connection con=connectionProvider.connectmysqldb();
+          Connection con=connectionProvider.connectmysqldb();
          Statement st=con.createStatement();
-         st.executeUpdate("update buyer values('"+name+"','"+contactNo+"','"+email+"','"+address+"','"+gender+"')");
+         st.executeUpdate("update buyer set name='"+name+"',contactNo='"+contactNo+"',email='"+email+"',address='"+address+"',gender='"+gender+"'where contactNo='"+contactNo1+"'");
          JOptionPane.showMessageDialog(null,"Successfully Updated");
          setVisible (false);
-         new NewBuyer().setVisible(true);
+         new UpdateBuyer().setVisible(true);
 
        }
        catch(Exception e){
@@ -370,8 +370,8 @@ public class UpdateBuyer extends javax.swing.JFrame {
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
+         setVisible(false);
          new UpdateBuyer(). setVisible(true);
-          setVisible(false);
           
     }//GEN-LAST:event_jButton3ActionPerformed
 
@@ -383,14 +383,16 @@ public class UpdateBuyer extends javax.swing.JFrame {
          Statement st=con.createStatement();
          ResultSet rs=st.executeQuery ("select *from buyer where contactNo='"+contactNo+"'™");
          if(rs.next()){
-              jTextField2.setText (rs.getString(1));
+               jTextField2.setText (rs.getString(1));
                jTextField3.setText (rs.getString(2));
                jTextField4.setText (rs.getString(3));
                jTextField5.setText (rs.getString(4));
                jTextField6.setText (rs.getString(5));
                jTextField1.setEditable(false);
 
-
+ }
+         else{
+             JOptionPane.showMessageDialog(null,"contact does not exist");
          }
        }
        catch(Exception e){
